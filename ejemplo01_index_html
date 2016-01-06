@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+   <div> 
+  El título de nuestro ejemplo
+</div> 
+  </body>
+</html>
