@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <style>
+         body {
+              color: blue;
+              background-color: lightblue;
+              }
+
+         h1 {
+            color: green;
+            }
+    </style>
+  </head>
+  <body>
+   <div> 
+  <h1 align="center">El título de nuestro ejemplo</h1><br><br><br>
+  <p>El subtítulo del ejemplo</p>
+</div> 
+  </body>
+</html>
