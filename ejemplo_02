@@ -1,0 +1,50 @@
+function myFunction() {
+  
+  //variables a utilizar
+  
+  var puntos=25; //Parametro a modificar para ver resultados, lo hacemos manualmente.
+  var puntosTotales=31;
+  var exigencia=60;
+  var intr=0.158;
+  var inta=0.250;
+  
+  //N es la variable que almacena la nota final.
+  //la nota 4 con 19 puntos
+  
+  if(puntos==0){
+   var N = 1;
+   
+   Logger.log(N); // Lanza el resultado a los registros o logs.
+  }
+  
+  if (puntos<19 && puntos!=0){
+    var N = 1;
+    
+    for(i=0;i < puntos;i++){
+      
+      N = N + intr; //Acumulador que almacena la nota, sumando intervalo de reprobación.
+            
+ } Logger.log(N);
+    
+ }
+  
+  if(puntos==19){
+     
+      var N = 4;
+    
+      Logger.log(N);
+    }
+  
+  if(puntos>19 && puntos<=31){
+      var N = 4;
+    
+      for(i=20;i <= puntos;i++){
+      
+      N = N + inta; //Acumulador que almacena la nota, sumando intervalo de aprobación.      
+      }
+    
+    Logger.log(N);
+    }  
+    
+    }
+
